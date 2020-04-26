@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  min-height: 10vh;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1,
+nav ul {
+  flex: 1;
+  font: 2 rem;
+}
+
+nav ul {
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
+}
+
+nav h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+
+section h1 {
+  font-family: "Satisfy", cursive;
+  font-weight: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  font-size: 30px;
+}
+
+section h1 {
+  margin: auto;
+}
+
+.HomeSec {
+  background-image: url("4th.jpg");
+  color: white;
+}
+
+.ProjectSec {
+  background-image: url("10th.jpg");
+  color: white;
+}
+
+.ContactSec {
+  background-image: url("7th.jpg");
+  color: black;
+}
