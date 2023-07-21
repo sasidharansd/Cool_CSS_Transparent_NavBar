@@ -70,16 +70,16 @@ section h1 {
 }
 
 .HomeSec {
-  background-image: url("4th.jpg");
+  background-image: url("../assets/4th.jpg");
   color: white;
 }
 
 .ProjectSec {
-  background-image: url("10th.jpg");
+  background-image: url("../assets/10th.jpg");
   color: white;
 }
 
 .ContactSec {
-  background-image: url("7th.jpg");
+  background-image: url("../assets/7th.jpg");
   color: black;
 }
